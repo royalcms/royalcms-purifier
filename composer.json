@@ -1,6 +1,7 @@
 {
     "name": "royalcms/purifier",
     "description": "The Royalcms Purifier package.",
+    "keywords": ["royalcms HtmlPurifier", "royalcms Purifier", "royalcms Security", "HtmlPurifier", "Purifier", "security", "xss"],
     "type": "library",
     "license": "MIT",
     "homepage": "http://royalcms.cn",
@@ -15,7 +16,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "ezyang/htmlpurifier": "4.8.*"
     },
     "autoload": {
         "psr-4": {
