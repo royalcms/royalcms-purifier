@@ -44,7 +44,8 @@ class PurifierServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->royalcms->singleton('purifier', function (Royalcms $royalcms) {
+        $this->royalcms->singleton('purifier', function ($royalcms)
+        {
             return new Purifier($royalcms['files'], $royalcms['config']);
         });
 
