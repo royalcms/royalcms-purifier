@@ -27,6 +27,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\Purifier\\PurifierServiceProvider"
+            ],
+            "aliases": {
+                "RC_Purifier": "Royalcms\\Component\\Purifier\\Facades\\Purifier"
+            }
         }
     },
     "minimum-stability": "dev"
